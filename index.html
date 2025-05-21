@@ -4,322 +4,194 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krishna Aryal | Data & Business Analyst Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">Krishna Aryal</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
+    <header>
+        <h1>Welcome to Krishna's Portfolio</h1>
+        <nav>
+            <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Krishna Aryal</h1>
-                    <h2>Data Analyst & Business Analyst</h2>
-                    <p>Transforming data into actionable insights and business solutions</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn primary-btn">Contact Me</a>
-                        <a href="Krishna_Resume_latest.pdf" class="btn secondary-btn" target="_blank">Download Resume</a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img src="profile-photo.jpg" alt="Krishna Aryal">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I am a highly skilled Data Analyst & Business Analyst with expertise in data modeling, process optimization, and strategic decision-making. With a strong background in SQL, Python, and ETL workflows, I specialize in transforming complex data into actionable insights that drive business growth.</p>
-                    <p>My experience spans across healthcare, financial services, and analytics consulting, where I've consistently delivered solutions that improve operational efficiency and support data-driven decision making.</p>
-                    <p>I hold a Master's degree in Analytics from Georgia Institute of Technology and a Master's in Applied Physics from the University of Massachusetts, Boston.</p>
-                    <div class="about-details">
-                        <div class="detail">
-                            <i class="fas fa-envelope"></i>
-                            <span>aryalkris9@gmail.com</span>
-                        </div>
-                        <div class="detail">
-                            <i class="fas fa-phone"></i>
-                            <span>234-817-5476</span>
-                        </div>
-                        <div class="detail">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>United States</span>
-                        </div>
-                        <div class="detail">
-                            <i class="fas fa-graduation-cap"></i>
-                            <span>MS in Analytics, Georgia Tech (In Progress)</span>
-                        </div>
-                    </div>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="krishna-aryal.jpg" alt="Krishna Aryal" class="profile-photo">
+            <div class="about-text">
+                <p>I am a highly skilled Data Analyst & Business Analyst with expertise in data modeling, process optimization, and strategic decision-making. With a strong background in SQL, Python, and ETL workflows, I specialize in transforming complex data into actionable insights.</p>
+                <p>My experience spans across healthcare, financial services, and analytics consulting, where I've consistently delivered solutions that improve operational efficiency and support data-driven decision making.</p>
+                <p>I hold a Master's degree in Analytics from Georgia Institute of Technology and a Master's in Applied Physics from the University of Massachusetts, Boston.</p>
+                <div class="skills-highlight">
+                    <span>SQL</span>
+                    <span>Python</span>
+                    <span>Tableau</span>
+                    <span>Power BI</span>
+                    <span>ETL</span>
+                    <span>Snowflake</span>
+                    <span>MongoDB</span>
+                    <span>Azure</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Work Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Business/Data Analyst</h3>
-                        <h4>Mango Analytics - Branford, CT</h4>
-                        <p class="timeline-date">May 2023 - Present</p>
-                        <ul class="timeline-list">
-                            <li>Documented stakeholder requirements in Confluence, converting business needs into detailed technical specifications</li>
-                            <li>Designed and maintained dashboards in Tableau and Power BI, driving strategic decision-making</li>
-                            <li>Led a cross-functional team to develop a Data Lake warehouse supporting enterprise sales applications</li>
-                            <li>Automated ETL workflows using SQL and Python, improving data processing efficiency</li>
-                            <li>Implemented NoSQL databases using MongoDB and Cassandra, optimizing data retrieval and storage</li>
-                        </ul>
-                    </div>
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Data Analysis & Visualization</h3>
+                <ul>
+                    <li>SQL, Python, ETL workflows</li>
+                    <li>Tableau, Power BI, Looker</li>
+                    <li>Excel (Advanced), Matplotlib, Seaborn</li>
+                    <li>Predictive modeling & statistical analysis</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Database & Cloud Technologies</h3>
+                <ul>
+                    <li>Snowflake, Databricks, Azure Pipelines</li>
+                    <li>NoSQL (MongoDB, Cassandra)</li>
+                    <li>MySQL, PostgreSQL, PL/SQL</li>
+                    <li>Data Lake architecture</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Business Analysis & Tools</h3>
+                <ul>
+                    <li>Confluence, JIRA, UML, Visio</li>
+                    <li>Process mapping & workflow design</li>
+                    <li>Lean methodologies</li>
+                    <li>KPI development & financial analysis</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Data Lake Warehouse Development</h3>
+                <p class="project-details">Led a cross-functional team to develop a Data Lake warehouse supporting enterprise sales applications. Implemented automated ETL workflows using SQL and Python, significantly improving data processing efficiency.</p>
+                <div class="project-tech">
+                    <span>SQL</span>
+                    <span>Python</span>
+                    <span>ETL</span>
+                    <span>Data Lake</span>
                 </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Data Analyst</h3>
-                        <h4>Higi Health - Lexington, MA</h4>
-                        <p class="timeline-date">March 2021 - December 2022</p>
-                        <ul class="timeline-list">
-                            <li>Enhanced healthcare kiosks by improving data integration, real-time processing, and UI responsiveness</li>
-                            <li>Optimized data modeling strategies, SQL queries and database schema for large datasets</li>
-                            <li>Developed key features using React Native and ReactJS, improving customer engagement</li>
-                            <li>Generated ad-hoc reports in Snowflake for clients like Rite Aid, Dollar General, and Giant Eagle</li>
-                            <li>Implemented middleware solutions with Redux-Promise, optimizing data handling</li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="project-card">
+                <h3>Healthcare Kiosk Enhancement</h3>
+                <p class="project-details">Enhanced healthcare kiosks by improving data integration, real-time processing, and UI responsiveness. Developed key features using React Native and ReactJS, improving customer engagement and user experience.</p>
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>SQL</span>
+                    <span>Snowflake</span>
+                    <span>Redux</span>
                 </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Data Scientist/Data Analyst</h3>
-                        <h4>Capital One - McLean, VA</h4>
-                        <p class="timeline-date">June 2019 - February 2021</p>
-                        <ul class="timeline-list">
-                            <li>Designed and implemented scalable machine learning models and pipelines using Python, TensorFlow, and Keras</li>
-                            <li>Developed and maintained end-to-end ML pipelines using MLflow, Azure Databricks, and H2O.ai</li>
-                            <li>Applied deep learning techniques including CNNs and RNNs for computer vision and time-series prediction</li>
-                            <li>Created advanced Power BI reports and dashboards, integrating SSAS Tabular models</li>
-                            <li>Processed and transformed data in Hive, MapReduce, and HDFS for large-scale datasets</li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="project-card">
+                <h3>Machine Learning Pipeline Development</h3>
+                <p class="project-details">Designed and implemented scalable machine learning models and pipelines using Python, TensorFlow, and Keras, supporting initiatives such as fraud detection, customer churn prediction, and recommendation systems.</p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>TensorFlow</span>
+                    <span>ML Pipelines</span>
+                    <span>Azure</span>
                 </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Data Analyst</h3>
-                        <h4>Four Tuples Solution</h4>
-                        <p class="timeline-date">June 2016 - March 2019</p>
-                        <ul class="timeline-list">
-                            <li>Developed automated ETL workflows using SQL, Python, and Informatica</li>
-                            <li>Conducted data analysis for microfinance and investment clients</li>
-                            <li>Created Tableau and Power BI dashboards to visualize sales & financial KPIs</li>
-                            <li>Engaged in continuous process improvements using Lean methodologies</li>
-                            <li>Conducted predictive modeling and advanced analytics, improving loan recovery rates</li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="project-card">
+                <h3>Financial Analytics Dashboard</h3>
+                <p class="project-details">Created Tableau and Power BI dashboards to visualize sales & financial KPIs for microfinance and investment clients, enhancing executive visibility and decision-making capabilities.</p>
+                <div class="project-tech">
+                    <span>Tableau</span>
+                    <span>Power BI</span>
+                    <span>Financial Analysis</span>
+                    <span>SQL</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Data Analysis & Visualization</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span>SQL</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Python</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Tableau</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 92%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Power BI</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 88%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Excel (Advanced)</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 95%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Databases & Data Processing</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span>ETL Workflows</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Snowflake</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>MongoDB/NoSQL</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Databricks</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 82%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Azure Pipelines</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 78%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Business Analysis & Tools</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span>Confluence/JIRA</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 92%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>UML/Visio</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Process Mapping</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 88%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Lean Methodologies</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span>Predictive Modeling</span>
-                            <div class="skill-progress">
-                                <div class="progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my full resume <a href="Krishna_Resume_latest.pdf" target="_blank" class="resume-link">here</a>.</p>
+        <div class="experience-container">
+            <h3>Work Experience</h3>
+            <div class="experience-item">
+                <h4>Business/Data Analyst</h4>
+                <p class="company">Mango Analytics - Branford, CT</p>
+                <p class="period">May 2023 - Present</p>
+                <ul>
+                    <li>Document stakeholder requirements in Confluence, converting business needs into technical specifications</li>
+                    <li>Design and maintain dashboards in Tableau and Power BI for strategic decision-making</li>
+                    <li>Lead Data Lake warehouse development for enterprise sales applications</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h4>Data Analyst</h4>
+                <p class="company">Higi Health - Lexington, MA</p>
+                <p class="period">March 2021 - December 2022</p>
+                <ul>
+                    <li>Enhanced healthcare kiosks by improving data integration and UI responsiveness</li>
+                    <li>Optimized data modeling strategies and SQL queries for large datasets</li>
+                    <li>Generated ad-hoc reports in Snowflake for major retail clients</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h4>Data Scientist/Data Analyst</h4>
+                <p class="company">Capital One - McLean, VA</p>
+                <p class="period">June 2019 - February 2021</p>
+                <ul>
+                    <li>Implemented scalable machine learning models using Python, TensorFlow, and Keras</li>
+                    <li>Developed end-to-end ML pipelines using MLflow and Azure Databricks</li>
+                    <li>Created advanced Power BI reports and dashboards for business insights</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/600x400?text=Data+Lake+Warehouse" alt="Data Lake Warehouse Project">
-                    </div>
-                    <div class="project-content">
-                        <h3>Enterprise Data Lake Warehouse</h3>
-                        <p>Led the development of a comprehensive Data Lake warehouse supporting enterprise sales applications, improving data accessibility and analysis capabilities.</p>
-                        <div class="project-tech">
-                            <span>SQL</span>
-                            <span>Python</span>
-                            <span>ETL</span>
-                            <span>Snowflake</span>
-                        </div>
-                    </div>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email: <a href="mailto:aryalkris9@gmail.com">aryalkris9@gmail.com</a></p>
                 </div>
-                
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/600x400?text=Healthcare+Kiosk" alt="Healthcare Kiosk Enhancement">
-                    </div>
-                    <div class="project-content">
-                        <h3>Healthcare Kiosk Enhancement</h3>
-                        <p>Enhanced healthcare kiosks by improving data integration, real-time processing, and UI responsiveness, leading to better data accuracy and performance.</p>
-                        <div class="project-tech">
-                            <span>React</span>
-                            <span>Redux</span>
-                            <span>SQL</span>
-                            <span>Snowflake</span>
-                        </div>
-                    </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>Phone: 234-817-5476</p>
                 </div>
-                
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/600x400?text=ML+Pipeline" alt="Machine Learning Pipeline">
-                    </div>
-                    <div class="project-content">
-                        <h3>Scalable ML Pipeline Development</h3>
-                        <p>Designed and implemented scalable machine learning models and pipelines for fraud detection, customer churn prediction, and recommendation systems.</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>TensorFlow</span>
-                            <span>MLflow</span>
-                            <span>Azure</span>
-                        </div>
-                    </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/krishna-aryal" target="_blank">linkedin.com/in/krishna-aryal</a></p>
                 </div>
-                
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/600x400?text=Financial+Dashboard" alt="Financial Dashboard">
-                    </div>
-                    <div class="project-content">
-                        <h3>Financial Analytics Dashboard</h3>
-                        <p>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2023 Krishna Aryal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
